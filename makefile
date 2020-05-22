@@ -1,16 +1,7 @@
 CC=g++
 CFLAGS=-c -Wall
 LDFLAGS=
-SOURCES=main.cpp
-        point.h
-        trapez.h
-        figure.h
-        rectangle.h
-        square.h
-        document.h
-        factory.h
-        command.h
-        editor.h
+SOURCES=main.cpp point.h trapez.h figure.h rectangle.h square.h document.h factory.h command.h editor.h
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=lab7
 
